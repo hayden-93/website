@@ -1,9 +1,15 @@
 import type { AppProps } from "next/app";
 
-import "./styles/index.css";
+import { Page } from "../layouts";
 
-function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
-}
+import "../styles/index.css";
 
-export default MyApp;
+const App = ({ Component, pageProps }: AppProps) => {
+  return (
+    <Page>
+      <Component {...pageProps} />
+    </Page>
+  );
+};
+
+export default App;

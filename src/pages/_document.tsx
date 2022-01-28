@@ -5,7 +5,11 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head />
-        <body className="min-h-screen max-w-screen-xl mx-auto bg-blue1">
+        <link
+          href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400;600;900&display=swap"
+          rel="stylesheet"
+        />
+        <body className="max-w-screen-xl mx-auto bg-indigo1">
           <Main />
           <NextScript />
         </body>

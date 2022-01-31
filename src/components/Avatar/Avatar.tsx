@@ -8,5 +8,5 @@ interface AvatarProps {
 export const Avatar = ({ className }: AvatarProps) => {
   const classes = ["", className].join(" ").trim();
 
-  return <Image src={profilePic} alt="Picture of the author" />;
+  return <Image src={profilePic} alt="Picture of the author" className={classes} />;
 };

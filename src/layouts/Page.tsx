@@ -1,5 +1,4 @@
 import type { ReactNode } from "react";
-import { Separator } from "../components/Separator/Separator";
 
 import { Footer, Header } from "./index";
 
@@ -14,7 +13,6 @@ export const Page = ({ children, className }: PageProps) => {
   return (
     <>
       <Header />
-      <Separator />
       <main className={classes}>{children}</main>
       <Footer />
     </>

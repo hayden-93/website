@@ -1,5 +1,5 @@
 import { GitHub, Instagram, Linkedin, Twitter, Zap } from "react-feather";
-import { Separator } from "../../components";
+import { Separator } from "../../components/Separator";
 
 interface FooterProps {
   className?: string;

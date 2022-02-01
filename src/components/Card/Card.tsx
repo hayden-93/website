@@ -6,7 +6,9 @@ interface CardProps {
 }
 
 export const Card = ({ children, className }: CardProps) => {
-  const classes = ["flex bg-indigo3 text-indigo12 p-4 mt-4 rounded-2xl items-center", className].join(" ").trim();
+  const classes = ["flex bg-indigo3 text-indigo12 p-4 mt-4 w-4/6 rounded-2xl items-center text-center", className]
+    .join(" ")
+    .trim();
   return <div className={classes}>{children}</div>;
 };
 

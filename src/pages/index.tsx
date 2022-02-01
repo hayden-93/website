@@ -3,7 +3,9 @@ import type { NextPage } from "next";
 const Home: NextPage = () => {
   return (
     <>
-      <div className="p-32">BOX 1</div>
+      <div className="max-w-screen-sm">
+        <h1 className="text-6xl">Hi, I&apos;m Hayden. I am a frontend developer.</h1>
+      </div>
     </>
   );
 };

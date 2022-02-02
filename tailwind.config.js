@@ -15,6 +15,12 @@ module.exports = {
       indigo11: "#849dff",
       indigo12: "#eef1fd",
     },
+    extend: {
+      fontSize: {
+        "10xl": "16rem",
+        "11xl": "22rem",
+      },
+    },
   },
   plugins: [],
 };

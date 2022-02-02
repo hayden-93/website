@@ -6,7 +6,9 @@ export const About = ({ className }: AboutProps) => {
   const classes = ["", className].join(" ").trim();
   return (
     <section className="mt-96 space-y-8">
-      <h2 className="text-left text-10xl tracking-tight opacity-10">About Me...</h2>
+      <h2 id="about" className="text-left text-10xl tracking-tight opacity-10">
+        About Me...
+      </h2>
       <p className="max-w-screen-sm text-indigo12 text-center p-4">
         Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to
         corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the

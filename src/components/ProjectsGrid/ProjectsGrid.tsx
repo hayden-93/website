@@ -6,14 +6,14 @@ interface ProjectsGridProps {
 
 export const ProjectsGrid = ({ className }: ProjectsGridProps) => {
   const classes = [
-    "grid grid-cols-3 gap-4 place-items-center max-w-screen-xl mx-auto bg-indigo3 py-4 space-y-4 rounded-2xl",
+    "grid grid-cols-3 gap-4 place-items-center max-w-screen-xl mx-auto mt-1 bg-indigo3 py-4 space-y-4 rounded-2xl",
     className,
   ]
     .join(" ")
     .trim();
   return (
     <>
-      <h2 className="text-center">Projects</h2>
+      <h2 className="mt-20 text-left text-10xl tracking-tight opacity-10">Projects</h2>
       <div className={classes}>
         <div>
           <Image src="/desktop-design.jpg" alt="NFT card component" width={250} height={250} className="rounded-2xl" />

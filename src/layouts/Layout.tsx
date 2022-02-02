@@ -2,12 +2,12 @@ import type { ReactNode } from "react";
 
 import { Footer, Header } from "./index";
 
-interface PageProps {
+interface LayoutProps {
   children: ReactNode;
   className?: string;
 }
 
-export const Page = ({ children, className }: PageProps) => {
+export const Layout = ({ children, className }: LayoutProps) => {
   const classes = ["min-h-screen text-indigo12 mt-4", className].join(" ").trim();
 
   return (

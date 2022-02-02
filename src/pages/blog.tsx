@@ -1,10 +1,13 @@
-import type { NextPage } from "next";
+interface BlogProps {
+  className?: string;
+}
 
-const Blog: NextPage = () => {
+export const Blog = ({ className }: BlogProps) => {
+  const classes = ["mt-40", className].join(" ").trim();
   return (
-    <>
-      <h1>Blog</h1>
-    </>
+    <div className={classes}>
+      <h1 className="text-left text-10xl tracking-tight opacity-10">Blog</h1>
+    </div>
   );
 };
 
